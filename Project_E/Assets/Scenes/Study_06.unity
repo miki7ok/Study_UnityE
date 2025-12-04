@@ -156,7 +156,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1560, y: 259}
+  m_SizeDelta: {x: 1560, y: 260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195860115
 MonoBehaviour:
@@ -206,7 +206,7 @@ Animator:
   m_GameObject: {fileID: 195860113}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e13652a875f3666478719599907a75fc, type: 2}
+  m_Controller: {fileID: 9100000, guid: bbb1f5c9920219b4ebbd78ab7b067da4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -506,7 +506,7 @@ Animator:
   m_GameObject: {fileID: 388756276}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 72121519d94165c428afd165025c78bf, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4a853c45e2f91214c89f4f469504ef4c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1078,6 +1078,7 @@ GameObject:
   - component: {fileID: 1820204221}
   - component: {fileID: 1820204223}
   - component: {fileID: 1820204222}
+  - component: {fileID: 1820204224}
   m_Layer: 5
   m_Name: Img_Loading
   m_TagString: Untagged
@@ -1100,10 +1101,10 @@ RectTransform:
   m_Father: {fileID: 1649244750}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -353}
-  m_SizeDelta: {x: -239.99963, y: 8}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 119.99982, y: -353}
+  m_SizeDelta: {x: 1800, y: 8}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1820204222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1142,6 +1143,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820204220}
   m_CullTransparentMesh: 1
+--- !u!95 &1820204224
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820204220}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6d843e9c7af5139498bc5789255dce51, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1845499052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,7 +1552,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1560, y: 0}
-  m_SizeDelta: {x: 1560, y: 259}
+  m_SizeDelta: {x: 1560, y: 260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962260391
 MonoBehaviour:
